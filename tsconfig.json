@@ -18,7 +18,10 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "typeRoots": ["./node_modules/@types"],
-    "outDir": "dist"
+    "outDir": "dist",
+    "compilerOptions": {
+      "types": ["jest", "node"]
+    }
   },
   "exclude": ["node_modules", "cdk.out"]
 }
